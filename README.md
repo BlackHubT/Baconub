@@ -26,7 +26,33 @@ local Window = Rayfield:CreateWindow({
 })
 local Tab = Window:CreateTab("Home", 4483362458)
 
+local Paragraph = Tab:CreateParagraph({Title = "All Scripts", Content = "V V V V V V"})
 
+local Label = Tab:CreateLabel("Brookhaven🏠")
+
+local Label = Tab:CreateLabel("BloxFrutis")
+
+local Label = Tab:CreateLabel("Doors")
+
+local Label = Tab:CreateLabel("Murder Mystery 2")
+
+local Label = Tab:CreateLabel("Rainbow Friends")
+
+local Label = Tab:CreateLabel("Bluid or Boat For Treesue")
+
+local Label = Tab:CreateLabel("Prison x Life")
+
+local Label = Tab:CreateLabel("Funky Friday")
+
+local Label = Tab:CreateLabel("Evade")
+
+local Label = Tab:CreateLabel("Slap Battles")
+
+local Label = Tab:CreateLabel("Arsenal")
+
+local Label = Tab:CreateLabel("Da Hood")
+
+local Label = Tab:CreateLabel("Combat Warriors")
 
 local Tab = Window:CreateTab("Scripts Hub", 4483362458)
 
@@ -347,7 +373,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("")
+local Section = Tab:CreateSection("SlapBattles")
 
 local Button = Tab:CreateButton({
    Name = "DizzyHub",
@@ -367,5 +393,156 @@ local Button = Tab:CreateButton({
    Name = "Rogue Hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Arsenal")
+
+local Button = Tab:CreateButton({
+   Name = "V.G-Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "TR1V5",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Arsenal", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dark Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+   end,
+})
+
+local Section = Tab:CreateSection("Combat Warriors")
+
+local Button = Tab:CreateButton({
+   Name = "IsaaaKK",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Nova Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Verm_Releases",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelLovesPie/verm_releases/main/combat_warriors.lua", true))()
+   end,
+}
+
+local Button = Tab:CreateButton({
+   Name = "Checse-hook",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/cheese-hook/main/main%20hydra%20ui.lua",true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "No Reason",
+   Callback = function()
+   loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Flare Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/flare"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Hydra Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
+   end,
+})
+
+local Section = Tab:CreateSection("Da hood")
+
+local Button = Tab:CreateButton({
+   Name = "Crostide",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Crostide/cdhc/main/gui"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "SpacedYes",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/SpacedYes/lua-projects/master/DaHood.Lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "lerkermer Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Scrvpter",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Eclipse Hub V2",
+   Callback = function()
+   getgenv().mainKey = "nil"
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+   end,
+})
+
+local Section = Tab:CreateSection("Breaking Point")
+
+local Button = Tab:CreateButton({
+   Name = "MostafaXc00dy",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/MostafaXc00dy/MostafaXc00dy/main/OutlawsHub/Free/V6.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "tkorra",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/tkorra/bp-gui/main/main.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ColdStep2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))();
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "V.G-Hub",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "H4R7N",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack%20v1.2.lua"))()
    end,
 })
