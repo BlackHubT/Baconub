@@ -24,6 +24,7 @@ local Window = Rayfield:CreateWindow({
       Key = ""
    }
 })
+
 local Tab = Window:CreateTab("Home", 4483362458)
 
 local Paragraph = Tab:CreateParagraph({Title = "All Scripts", Content = "V V V V V V"})
@@ -54,7 +55,58 @@ local Label = Tab:CreateLabel("Da Hood")
 
 local Label = Tab:CreateLabel("Combat Warriors")
 
+local Tab = Window:CreateTab("Hot Scripts", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "Infinity Yield",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Cmd-X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Orca Hub",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "DomainX",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+   end,
+})
 local Tab = Window:CreateTab("Scripts Hub", 4483362458)
+
+
+local Button = Tab:CreateButton({
+   Name = "Icehub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Icehub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Icehub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+   end,
+})
 
 local Section = Tab:CreateSection("Brookhaven")
 
@@ -440,7 +492,7 @@ local Button = Tab:CreateButton({
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/samuelLovesPie/verm_releases/main/combat_warriors.lua", true))()
    end,
-}
+})
 
 local Button = Tab:CreateButton({
    Name = "Checse-hook",
