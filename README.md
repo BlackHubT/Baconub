@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "ABCD", 
       RememberJoins = true 
    },
-   KeySystem = false,
+   KeySystem = true,
    KeySettings = {
       Title = "Verify Key 🔑",
       Subtitle = "Create By BlackHub#1055",
@@ -21,7 +21,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "BaconKey",
       SaveKey = false,
       GrabKeyFromSite = false, 
-      Key = ""
+      Key = "Baconub"
    }
 })
 local Tab = Window:CreateTab("Home", 4483362458)
@@ -53,8 +53,6 @@ local Label = Tab:CreateLabel("Arsenal")
 local Label = Tab:CreateLabel("Da Hood")
 
 local Label = Tab:CreateLabel("Combat Warriors")
-
-local Tab = Window:CreateTab("Commands", 4483362458)
 
 local Paragraph = Tab:CreateParagraph({Title = "Working Executor", Content = "V V V V V V"})
 
@@ -92,8 +90,58 @@ local Label = Tab:CreateLabel("Synapse X | [Green] [Red] [?]")
 
 local Label = Tab:CreateLabel("Scripts Ware X | [Green] [Red] [?]")
 
+local Tab = Window:CreateTab("BestScripts", 4483362458)
 
-local Tab = Window:CreateTab("Home", 4483362458)
+local Button = Tab:CreateButton({
+   Name = "Orca Hub",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Domain X",
+   Callback = function()
+   loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dark Hub",
+   Callback = function()
+   loadstring(game:HttpGet(('https://darkhub.xyz/remote-script.lua'), true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Infinity Yiled",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Cmd-X",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dex V3",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebinp.com/raw/gw8tpD25', true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Owl Hub",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt'), true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Scripts Hub", 4483362458)
 
 local Section = Tab:CreateSection("Brookhaven")
 
