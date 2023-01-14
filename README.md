@@ -86,28 +86,6 @@ local Button = Tab:CreateButton({
 })
 local Tab = Window:CreateTab("Scripts Hub", 4483362458)
 
-
-local Button = Tab:CreateButton({
-   Name = "Icehub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Icehub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Icehub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-   end,
-})
-
 local Section = Tab:CreateSection("Brookhaven")
 
 local Button = Tab:CreateButton({
