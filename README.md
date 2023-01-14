@@ -24,7 +24,6 @@ local Window = Rayfield:CreateWindow({
       Key = ""
    }
 })
-
 local Tab = Window:CreateTab("Home", 4483362458)
 
 local Paragraph = Tab:CreateParagraph({Title = "All Scripts", Content = "V V V V V V"})
@@ -55,36 +54,46 @@ local Label = Tab:CreateLabel("Da Hood")
 
 local Label = Tab:CreateLabel("Combat Warriors")
 
-local Tab = Window:CreateTab("Hot Scripts", 4483362458)
+local Tab = Window:CreateTab("Commands", 4483362458)
 
-local Button = Tab:CreateButton({
-   Name = "Infinity Yield",
-   Callback = function()
-   loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-   end,
-})
+local Paragraph = Tab:CreateParagraph({Title = "Working Executor", Content = "V V V V V V"})
 
-local Button = Tab:CreateButton({
-   Name = "Cmd-X",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
-   end,
-})
+local Paragraph = Tab:CreateParagraph({Title = "Icon Working", Content = "Statue: [Green] is Working [Yellow] is Working But Scripts Is Not Support [Red] is Working But Scripts is Code Error [Blocker] is Working But Scripts Patched / Error / No Creator [?] No Reason Executor [Anti] Working but vscode expliot has anti cheat by roblox"})
 
-local Button = Tab:CreateButton({
-   Name = "Orca Hub",
-   Callback = function()
-   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
-   end,
-})
+local Label = Tab:CreateLabel("Fluxus | [Green] [Blocker] ")
 
-local Button = Tab:CreateButton({
-   Name = "DomainX",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
-   end,
-})
-local Tab = Window:CreateTab("Scripts Hub", 4483362458)
+local Label = Tab:CreateLabel("Coco z | [Yellow] [Blocker] ")
+
+local Label = Tab:CreateLabel("Krnl | [Green] [Blocker] [Anti] ")
+
+local Label = Tab:CreateLabel("JJspliot | [Yellow] [?] [Anti]")
+
+local Label = Tab:CreateLabel("Kiwi | [Yellow] [?] [Anti]")
+
+local Label = Tab:CreateLabel("Comet | [Yellow] [?] ")
+
+local Label = Tab:CreateLabel("Oxygen U | [Yellow] [?]")
+
+local Label = Tab:CreateLabel("Dansploit | [?] [Anti]")
+
+local Label = Tab:CreateLabel("Rainer | [Yellow] [Anti]")
+
+local Label = Tab:CreateLabel("Evon | [?]")
+
+local Label = Tab:CreateLabel("Trigon Evo | [Green] [Red]")
+
+local Label = Tab:CreateLabel("Furk | [Green] [Red] [?]")
+
+local Label = Tab:CreateLabel("Vega X | [Green] [Red] [?]")
+
+local Label = Tab:CreateLabel("Zyreus | [Green] [Red] [?]")
+
+local Label = Tab:CreateLabel("Synapse X | [Green] [Red] [?]")
+
+local Label = Tab:CreateLabel("Scripts Ware X | [Green] [Red] [?]")
+
+
+local Tab = Window:CreateTab("Home", 4483362458)
 
 local Section = Tab:CreateSection("Brookhaven")
 
