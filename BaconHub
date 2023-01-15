@@ -26,9 +26,9 @@ local Window = Rayfield:CreateWindow({
 })
 
 if getgenv().UpdateMode == nil then
-		local Tab = Window:CreateTab("Update ComingSonn", 4483362458)
-		local Section = Tab:CreateSection("Check Update")
-		local Label = Tab:CreateLabel("Pet Simulators X")
+		local UM = Window:CreateTab("Update ComingSonn", 4483362458)
+		local Section = UM:CreateSection("Check Update")
+		local Label = UM:CreateLabel("Pet Simulators X")
 	else
 		if not getgenv().UpdateMode then
 		
