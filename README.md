@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 local Window = Rayfield:CreateWindow({
    Name = "BaconHub🥓",
    LoadingTitle = "BaconHub is Loading Please Wait :D",
-   LoadingSubtitle = "Create by BlackHub#1055",
+   LoadingSubtitle = "Create by BaconHub#1055",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, 
@@ -16,8 +16,8 @@ local Window = Rayfield:CreateWindow({
    KeySystem = true,
    KeySettings = {
       Title = "Verify Key 🔑",
-      Subtitle = "Create By BlackHub#1055",
-      Note = "Pls checkpoint 3 link by hoho hub web pls ",
+      Subtitle = "Create By BaconHub#1055",
+      Note = "Baconub is coming son key | You Key Here: Bacpnub",
       FileName = "BaconKey",
       SaveKey = false,
       GrabKeyFromSite = false, 
@@ -38,7 +38,7 @@ local Label = Tab:CreateLabel("Murder Mystery 2")
 
 local Label = Tab:CreateLabel("Rainbow Friends")
 
-local Label = Tab:CreateLabel("Bluid or Boat For Treesue")
+local Label = Tab:CreateLabel("Bluid or Boat For Treesure")
 
 local Label = Tab:CreateLabel("Prison x Life")
 
@@ -58,7 +58,7 @@ local Paragraph = Tab:CreateParagraph({Title = "Working Executor", Content = "V 
 
 local Paragraph = Tab:CreateParagraph({Title = "Icon Working", Content = "Statue: [Green] is Working [Yellow] is Working But Scripts Is Not Support [Red] is Working But Scripts is Code Error [Blocker] is Working But Scripts Patched / Error / No Creator [?] No Reason Executor [Anti] Working but vscode expliot has anti cheat by roblox"})
 
-local Label = Tab:CreateLabel("Fluxus | [Green] [Blocker] ")
+local Label = Tab:CreateLabel("Fluxus | [Green] [Yellow] [Blocker] ")
 
 local Label = Tab:CreateLabel("Coco z | [Yellow] [Blocker] ")
 
@@ -339,7 +339,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Section = Tab:CreateSection("Bulid or Boat Fir Treesure")
+local Section = Tab:CreateSection("Bulid or Boat For Treesure")
 
 local Button = Tab:CreateButton({
    Name = "Vynuxis",
